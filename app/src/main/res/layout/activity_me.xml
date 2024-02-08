@@ -27,7 +27,7 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="@string/about_me"
+            android:text="@string/about_me_text"
             tools:ignore="LabelFor" />
 
 

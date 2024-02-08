@@ -27,7 +27,7 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="@string/about_dog"
+            android:text="@string/about_dog_text"
             tools:ignore="LabelFor" />
 
         <Button

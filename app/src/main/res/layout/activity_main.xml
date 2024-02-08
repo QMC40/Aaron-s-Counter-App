@@ -24,51 +24,35 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/MeButton"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:contentDescription="@string/me_activity"
                 android:onClick="openMeActivity"
-                android:src="@drawable/mesmall" />
+                android:text="@string/about_me"
+                />
 
-            <ImageButton
+            <Button
                 android:id="@+id/MyDogButton"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:contentDescription="@string/dog_activity"
                 android:onClick="openTequilaActivity"
-                android:src="@drawable/tequilasmall" />
-        </LinearLayout>
+                android:text="@string/about_my_dog"
+                />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:text="@string/my_introduction"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="40sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#2709E7"
-            android:orientation="horizontal">
-
-            <ImageButton
+            <Button
                 android:id="@+id/NavyButton"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
-                android:background="#290BE7"
                 android:contentDescription="@string/navy_activity"
                 android:onClick="openNavyActivity"
-                android:src="@drawable/yp692small" />
+                android:text="@string/about_my_navy_career"
+                />
 
         </LinearLayout>
 
@@ -76,16 +60,74 @@
             android:id="@+id/editTextTextMultiLine2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textMultiLine"
             android:padding="20dp"
             android:text="@string/main_splash"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
-            android:ems="10"
-            android:inputType="textMultiLine"
-            android:autofillHints=""
             tools:ignore="LabelFor" />
 
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:text="@string/increment_counter"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2709E7"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/minus"
+                android:onClick="decrementCount"
+                />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reset"
+                android:onClick="resetCount"
+                />
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus"
+                android:onClick="incrementCount"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/digitCount"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:text="@string/counter"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            />
+
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">My Introduction</string>
-    <string name="my_introduction">My Introduction!</string>
+    <string name="my_name">Aaron Fortner</string>
     <string name="me">Me</string>
     <string name="myDog">My Dog</string>
     <string name="Navy">Navy</string>
@@ -16,15 +16,23 @@
     <string name="picture_of_me_and_tequila">picture of me and Tequila</string>
     <string name="tequila">Tequila the weiner dog</string>
     <string name="YP692">Yard Patrol Craft 692</string>
-    <string name="about_navy">In the 22 years I served my favorite job was teaching at the Naval
+    <string name="about_navy_text">In the 22 years I served my favorite job was teaching at the Naval
         Academy.  It was a great time and I really enjoyed teaching and got to be in command of my
         own training craft, Yard Patrol craft 692 onboard which I taught midshipmen navigation,
         ship handling and watch standing.</string>
-    <string name="about_me">I am a retired Navy Chief Petty Officer from Corpus and I graduated
+    <string name="about_me_text">I am a retired Navy Chief Petty Officer from Corpus and I graduated
         from FBHS a very long time ago.  I live in Port Aransas with my dog Tequila and I paint
         miniatures and read for relaxation. </string>
-    <string name="about_dog">Tequila is a 19 year old dapple Dachshund dog.  He is a very good
+    <string name="about_dog_text">Tequila is a 19 year old dapple Dachshund dog.  He is a very good
         doggie and he likes to sleep and eat and he is very good at both.  He is
         also very good at barking at people and other dogs.  He\'s my best buddy.</string>
     <string name="main_splash">Aaron Fortner\nSpring 2024\nCOSC 6362: Mobile Software Development</string>
+    <string name="increment_counter">Increment counter</string>
+    <string name="about_my_navy_career">about my navy career</string>
+    <string name="about_my_dog">about my dog</string>
+    <string name="about_me">about me</string>
+    <string name="minus">-</string>
+    <string name="reset">reset</string>
+    <string name="plus">+</string>
+    <string name="counter">0</string>
 </resources>
