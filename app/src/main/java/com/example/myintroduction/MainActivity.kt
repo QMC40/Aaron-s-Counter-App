@@ -26,10 +26,10 @@ class MainActivity : AppCompatActivity() {
         digitCount = findViewById(R.id.digitCount)
 
         val intent = intent
-        if (intent != null && intent.hasExtra("count")) {
-            count = intent.getIntExtra("count", 0)
+        count = if (intent != null && intent.hasExtra("count")) {
+            intent.getIntExtra("count", 0)
         } else {
-            count = 0
+            0
         }
 
         minusBtn = findViewById(R.id.minusBtn)
@@ -60,17 +60,6 @@ class MainActivity : AppCompatActivity() {
             openTequilaActivity(it)
         }
 
-
-    }
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putInt("count", count)
-    }
-
-    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        super.onRestoreInstanceState(savedInstanceState)
-        count = savedInstanceState.getInt("count", 0)
     }
 
     private fun incrementCount(view: View) {
