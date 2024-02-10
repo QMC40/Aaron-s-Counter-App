@@ -8,13 +8,17 @@ import android.view.View
 class Navy : AppCompatActivity() {
 
     private val backButton: View by lazy { findViewById(R.id.backButton) }
+    private var count: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navy)
+        count = intent.getIntExtra("count", 0)
+
 
         backButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("count", count)
             startActivity(intent)
             finish() // Close the current activity
         }

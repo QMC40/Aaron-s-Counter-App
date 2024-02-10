@@ -25,7 +25,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/MeButton"
+                android:id="@+id/meButton"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -35,7 +35,7 @@
                 />
 
             <Button
-                android:id="@+id/MyDogButton"
+                android:id="@+id/myDogButton"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -45,7 +45,7 @@
                 />
 
             <Button
-                android:id="@+id/NavyButton"
+                android:id="@+id/navyButton"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -88,30 +88,27 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/minus"
+                android:id="@+id/minusBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/minus"
-                android:onClick="decrementCount"
                 />
 
             <Button
-                android:id="@+id/reset"
+                android:id="@+id/resetBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/reset"
-                android:onClick="resetCount"
                 />
 
             <Button
-                android:id="@+id/plus"
+                android:id="@+id/plusBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/plus"
-                android:onClick="incrementCount"
                 />
 
         </LinearLayout>
