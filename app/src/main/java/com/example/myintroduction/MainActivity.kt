@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity() {
         tequilaBtn.setOnClickListener {
             openTequilaActivity(it)
         }
-
     }
 
     private fun incrementCount(view: View) {

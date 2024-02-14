@@ -7,7 +7,23 @@
     android:background="#038E1F"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/trivia"
+        android:textColor="#2642DD"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -31,8 +47,7 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/me_activity"
                 android:onClick="openMeActivity"
-                android:text="@string/about_me"
-                />
+                android:text="@string/about_me" />
 
             <Button
                 android:id="@+id/myDogButton"
@@ -41,8 +56,7 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/dog_activity"
                 android:onClick="openTequilaActivity"
-                android:text="@string/about_my_dog"
-                />
+                android:text="@string/about_my_dog" />
 
             <Button
                 android:id="@+id/navyButton"
@@ -51,8 +65,7 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/navy_activity"
                 android:onClick="openNavyActivity"
-                android:text="@string/about_my_navy_career"
-                />
+                android:text="@string/about_my_navy_career" />
 
         </LinearLayout>
 
@@ -78,8 +91,7 @@
             android:text="@string/increment_counter"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="40sp"
-            />
+            android:textSize="40sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -92,24 +104,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/minus"
-                />
+                android:text="@string/minus" />
 
             <Button
                 android:id="@+id/resetBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/reset"
-                />
+                android:text="@string/reset" />
 
             <Button
                 android:id="@+id/plusBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/plus"
-                />
+                android:text="@string/plus" />
 
         </LinearLayout>
 
@@ -121,8 +130,7 @@
             android:text="@string/counter"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="40sp"
-            />
+            android:textSize="40sp" />
 
     </LinearLayout>
 
