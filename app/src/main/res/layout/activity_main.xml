@@ -104,6 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textSize="35sp"
                 android:text="@string/minus" />
 
             <Button
@@ -111,6 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textSize="35sp"
                 android:text="@string/reset" />
 
             <Button
@@ -118,6 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textSize="35sp"
                 android:text="@string/plus" />
 
         </LinearLayout>
